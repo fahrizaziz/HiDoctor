@@ -1,0 +1,67 @@
+const mainColors = {
+  green1: '#2D91BC',
+  green2: '#EDFCFD',
+  green3: '#0BCAD4',
+  dark1: '#112340',
+  blue1: '#2D91BC',
+  blue2: '#0064C0',
+  blue3: '#CFF8FB',
+  blue4: '#0066CB',
+  blue5: '#0683FF',
+  grey1: '#7D8797',
+  grey2: '#E9E9E9',
+  grey3: '#6B7586',
+  grey4: '#717479',
+  grey5: '#E3E3E3',
+  grey6: '#EEEEEE',
+  grey7: '#EDEEF0',
+  grey8: '#B1B7C2',
+  black1: '#00000',
+  black2: 'rgba(0, 0, 0, 0.5)',
+  red1: '#EA2E4F',
+};
+export const colors = {
+  primary: mainColors.green1,
+  secondary: mainColors.dark1,
+  tertiary: mainColors.blue2,
+  fourth: mainColors.blue5,
+  white: 'white',
+  black: 'black',
+  text: {
+    primary: mainColors.dark1,
+    secondary: mainColors.grey1,
+    thirht: mainColors.grey5,
+  },
+  button: {
+    primary: { background: mainColors.green1, text: 'white' },
+    secondary: {
+      background: 'white',
+      text: mainColors.green1,
+    },
+    disable: {
+      background: mainColors.grey5,
+      text: mainColors.grey8,
+    },
+  },
+  border: mainColors.grey2,
+  border2: mainColors.grey6,
+  borderactive: mainColors.blue1,
+  link: {
+    labelprimary: {
+      text: mainColors.grey3,
+    },
+    labelsecondart: {
+      text: mainColors.grey4,
+    },
+    labelthird: {
+      text: mainColors.grey1,
+    },
+  },
+  cardLight: mainColors.green2,
+  disable: mainColors.grey7,
+  bubblechatisme: mainColors.blue3,
+  bubblechatother: mainColors.blue4,
+  loadingBackground: mainColors.black2,
+  error: mainColors.red1,
+  success: mainColors.green3,
+};
